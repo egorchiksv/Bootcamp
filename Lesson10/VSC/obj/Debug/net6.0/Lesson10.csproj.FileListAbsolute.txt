@@ -1,0 +1,15 @@
+D:\GeekBrains\04_Bootcamp\Lesson10\bin\Debug\net6.0\Lesson10.exe
+D:\GeekBrains\04_Bootcamp\Lesson10\bin\Debug\net6.0\Lesson10.deps.json
+D:\GeekBrains\04_Bootcamp\Lesson10\bin\Debug\net6.0\Lesson10.runtimeconfig.json
+D:\GeekBrains\04_Bootcamp\Lesson10\bin\Debug\net6.0\Lesson10.dll
+D:\GeekBrains\04_Bootcamp\Lesson10\bin\Debug\net6.0\Lesson10.pdb
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\Lesson10.csproj.AssemblyReference.cache
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\Lesson10.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\Lesson10.AssemblyInfoInputs.cache
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\Lesson10.AssemblyInfo.cs
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\Lesson10.csproj.CoreCompileInputs.cache
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\Lesson10.dll
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\refint\Lesson10.dll
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\Lesson10.pdb
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\Lesson10.genruntimeconfig.cache
+D:\GeekBrains\04_Bootcamp\Lesson10\obj\Debug\net6.0\ref\Lesson10.dll
