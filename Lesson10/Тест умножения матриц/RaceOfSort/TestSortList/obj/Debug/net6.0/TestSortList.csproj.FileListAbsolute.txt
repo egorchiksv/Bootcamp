@@ -1,0 +1,5 @@
+D:\GB\bootcamp\RaceOfSort\TestSortList\obj\Debug\net6.0\TestSortList.csproj.AssemblyReference.cache
+D:\GB\bootcamp\RaceOfSort\TestSortList\obj\Debug\net6.0\TestSortList.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB\bootcamp\RaceOfSort\TestSortList\obj\Debug\net6.0\TestSortList.AssemblyInfoInputs.cache
+D:\GB\bootcamp\RaceOfSort\TestSortList\obj\Debug\net6.0\TestSortList.AssemblyInfo.cs
+D:\GB\bootcamp\RaceOfSort\TestSortList\obj\Debug\net6.0\TestSortList.csproj.CoreCompileInputs.cache

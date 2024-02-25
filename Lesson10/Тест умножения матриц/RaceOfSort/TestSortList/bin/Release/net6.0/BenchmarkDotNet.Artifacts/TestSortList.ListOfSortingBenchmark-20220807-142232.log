@@ -1,0 +1,300 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 3 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\GB\bootcamp\RaceOfSort\TestSortList\bin\Release\net6.0\113092ee-106b-4f57-a719-a0c60b5f4cbd
+// command took 2s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\GB\bootcamp\RaceOfSort\TestSortList\bin\Release\net6.0\113092ee-106b-4f57-a719-a0c60b5f4cbd
+// command took 4,28s and exited with 0
+// ***** Done, took 00:00:06 (6.49 sec)   *****
+// Found 3 benchmarks:
+//   ListOfSortingBenchmark.TestSerialMul: DefaultJob
+//   ListOfSortingBenchmark.TestParallelMulThread: DefaultJob
+//   ListOfSortingBenchmark.TestParallelMulTask: DefaultJob
+
+// **************************
+// Benchmark: ListOfSortingBenchmark.TestSerialMul: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "113092ee-106b-4f57-a719-a0c60b5f4cbd.dll" --benchmarkName "TestSortList.ListOfSortingBenchmark.TestSerialMul" --job "Default" --benchmarkId 0 in D:\GB\bootcamp\RaceOfSort\TestSortList\bin\Release\net6.0\113092ee-106b-4f57-a719-a0c60b5f4cbd\bin\Release\net6.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 318000.00 ns, 318.0000 us/op
+WorkloadJitting  1: 1 op, 9116103200.00 ns, 9.1161 s/op
+
+WorkloadWarmup   1: 1 op, 8937566500.00 ns, 8.9376 s/op
+WorkloadWarmup   2: 1 op, 8884277800.00 ns, 8.8843 s/op
+WorkloadWarmup   3: 1 op, 9101337800.00 ns, 9.1013 s/op
+WorkloadWarmup   4: 1 op, 8985151900.00 ns, 8.9852 s/op
+WorkloadWarmup   5: 1 op, 8892836000.00 ns, 8.8928 s/op
+WorkloadWarmup   6: 1 op, 9087744800.00 ns, 9.0877 s/op
+WorkloadWarmup   7: 1 op, 8907478500.00 ns, 8.9075 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 8992298400.00 ns, 8.9923 s/op
+WorkloadActual   2: 1 op, 8913212300.00 ns, 8.9132 s/op
+WorkloadActual   3: 1 op, 9367014100.00 ns, 9.3670 s/op
+WorkloadActual   4: 1 op, 8942799500.00 ns, 8.9428 s/op
+WorkloadActual   5: 1 op, 8890833400.00 ns, 8.8908 s/op
+WorkloadActual   6: 1 op, 9151906500.00 ns, 9.1519 s/op
+WorkloadActual   7: 1 op, 8926325600.00 ns, 8.9263 s/op
+WorkloadActual   8: 1 op, 8950068900.00 ns, 8.9501 s/op
+WorkloadActual   9: 1 op, 8902886500.00 ns, 8.9029 s/op
+WorkloadActual  10: 1 op, 9113434000.00 ns, 9.1134 s/op
+WorkloadActual  11: 1 op, 8873925600.00 ns, 8.8739 s/op
+WorkloadActual  12: 1 op, 8946466600.00 ns, 8.9465 s/op
+WorkloadActual  13: 1 op, 9123865000.00 ns, 9.1239 s/op
+WorkloadActual  14: 1 op, 8837286000.00 ns, 8.8373 s/op
+WorkloadActual  15: 1 op, 8910317000.00 ns, 8.9103 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 8992298400.00 ns, 8.9923 s/op
+WorkloadResult   2: 1 op, 8913212300.00 ns, 8.9132 s/op
+WorkloadResult   3: 1 op, 8942799500.00 ns, 8.9428 s/op
+WorkloadResult   4: 1 op, 8890833400.00 ns, 8.8908 s/op
+WorkloadResult   5: 1 op, 9151906500.00 ns, 9.1519 s/op
+WorkloadResult   6: 1 op, 8926325600.00 ns, 8.9263 s/op
+WorkloadResult   7: 1 op, 8950068900.00 ns, 8.9501 s/op
+WorkloadResult   8: 1 op, 8902886500.00 ns, 8.9029 s/op
+WorkloadResult   9: 1 op, 9113434000.00 ns, 9.1134 s/op
+WorkloadResult  10: 1 op, 8873925600.00 ns, 8.8739 s/op
+WorkloadResult  11: 1 op, 8946466600.00 ns, 8.9465 s/op
+WorkloadResult  12: 1 op, 9123865000.00 ns, 9.1239 s/op
+WorkloadResult  13: 1 op, 8837286000.00 ns, 8.8373 s/op
+WorkloadResult  14: 1 op, 8910317000.00 ns, 8.9103 s/op
+GC:  0 0 0 848 1
+Threading:  0 0 1
+
+// AfterAll
+// Benchmark Process 1052 has exited with code 0.
+
+Mean = 8.963 s, StdErr = 0.026 s (0.29%), N = 14, StdDev = 0.098 s
+Min = 8.837 s, Q1 = 8.905 s, Median = 8.935 s, Q3 = 8.982 s, Max = 9.152 s
+IQR = 0.077 s, LowerFence = 8.789 s, UpperFence = 9.097 s
+ConfidenceInterval = [8.852 s; 9.073 s] (CI 99.9%), Margin = 0.111 s (1.23% of Mean)
+Skewness = 0.82, Kurtosis = 2.2, MValue = 2
+
+// **************************
+// Benchmark: ListOfSortingBenchmark.TestParallelMulThread: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "113092ee-106b-4f57-a719-a0c60b5f4cbd.dll" --benchmarkName "TestSortList.ListOfSortingBenchmark.TestParallelMulThread" --job "Default" --benchmarkId 1 in D:\GB\bootcamp\RaceOfSort\TestSortList\bin\Release\net6.0\113092ee-106b-4f57-a719-a0c60b5f4cbd\bin\Release\net6.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 302500.00 ns, 302.5000 us/op
+WorkloadJitting  1: 1 op, 1771593100.00 ns, 1.7716 s/op
+
+WorkloadWarmup   1: 1 op, 1836393000.00 ns, 1.8364 s/op
+WorkloadWarmup   2: 1 op, 1787704700.00 ns, 1.7877 s/op
+WorkloadWarmup   3: 1 op, 1861619100.00 ns, 1.8616 s/op
+WorkloadWarmup   4: 1 op, 2044581000.00 ns, 2.0446 s/op
+WorkloadWarmup   5: 1 op, 1783207000.00 ns, 1.7832 s/op
+WorkloadWarmup   6: 1 op, 1789601200.00 ns, 1.7896 s/op
+WorkloadWarmup   7: 1 op, 1784639400.00 ns, 1.7846 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 1828339000.00 ns, 1.8283 s/op
+WorkloadActual   2: 1 op, 1799265400.00 ns, 1.7993 s/op
+WorkloadActual   3: 1 op, 1767975000.00 ns, 1.7680 s/op
+WorkloadActual   4: 1 op, 1788941400.00 ns, 1.7889 s/op
+WorkloadActual   5: 1 op, 1781641000.00 ns, 1.7816 s/op
+WorkloadActual   6: 1 op, 1794215800.00 ns, 1.7942 s/op
+WorkloadActual   7: 1 op, 1800616000.00 ns, 1.8006 s/op
+WorkloadActual   8: 1 op, 1820438200.00 ns, 1.8204 s/op
+WorkloadActual   9: 1 op, 1801441500.00 ns, 1.8014 s/op
+WorkloadActual  10: 1 op, 1838981900.00 ns, 1.8390 s/op
+WorkloadActual  11: 1 op, 1811637100.00 ns, 1.8116 s/op
+WorkloadActual  12: 1 op, 1804286000.00 ns, 1.8043 s/op
+WorkloadActual  13: 1 op, 1810224600.00 ns, 1.8102 s/op
+WorkloadActual  14: 1 op, 1790217400.00 ns, 1.7902 s/op
+WorkloadActual  15: 1 op, 1799444100.00 ns, 1.7994 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 1828339000.00 ns, 1.8283 s/op
+WorkloadResult   2: 1 op, 1799265400.00 ns, 1.7993 s/op
+WorkloadResult   3: 1 op, 1767975000.00 ns, 1.7680 s/op
+WorkloadResult   4: 1 op, 1788941400.00 ns, 1.7889 s/op
+WorkloadResult   5: 1 op, 1781641000.00 ns, 1.7816 s/op
+WorkloadResult   6: 1 op, 1794215800.00 ns, 1.7942 s/op
+WorkloadResult   7: 1 op, 1800616000.00 ns, 1.8006 s/op
+WorkloadResult   8: 1 op, 1820438200.00 ns, 1.8204 s/op
+WorkloadResult   9: 1 op, 1801441500.00 ns, 1.8014 s/op
+WorkloadResult  10: 1 op, 1838981900.00 ns, 1.8390 s/op
+WorkloadResult  11: 1 op, 1811637100.00 ns, 1.8116 s/op
+WorkloadResult  12: 1 op, 1804286000.00 ns, 1.8043 s/op
+WorkloadResult  13: 1 op, 1810224600.00 ns, 1.8102 s/op
+WorkloadResult  14: 1 op, 1790217400.00 ns, 1.7902 s/op
+WorkloadResult  15: 1 op, 1799444100.00 ns, 1.7994 s/op
+GC:  0 0 0 3208 1
+Threading:  0 0 1
+
+// AfterAll
+// Benchmark Process 29572 has exited with code 0.
+
+Mean = 1.803 s, StdErr = 0.005 s (0.26%), N = 15, StdDev = 0.018 s
+Min = 1.768 s, Q1 = 1.792 s, Median = 1.801 s, Q3 = 1.811 s, Max = 1.839 s
+IQR = 0.019 s, LowerFence = 1.764 s, UpperFence = 1.839 s
+ConfidenceInterval = [1.783 s; 1.822 s] (CI 99.9%), Margin = 0.019 s (1.07% of Mean)
+Skewness = 0.2, Kurtosis = 2.56, MValue = 2
+
+// **************************
+// Benchmark: ListOfSortingBenchmark.TestParallelMulTask: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "113092ee-106b-4f57-a719-a0c60b5f4cbd.dll" --benchmarkName "TestSortList.ListOfSortingBenchmark.TestParallelMulTask" --job "Default" --benchmarkId 2 in D:\GB\bootcamp\RaceOfSort\TestSortList\bin\Release\net6.0\113092ee-106b-4f57-a719-a0c60b5f4cbd\bin\Release\net6.0
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 244000.00 ns, 244.0000 us/op
+WorkloadJitting  1: 1 op, 1803304900.00 ns, 1.8033 s/op
+
+WorkloadWarmup   1: 1 op, 1800200400.00 ns, 1.8002 s/op
+WorkloadWarmup   2: 1 op, 1778356500.00 ns, 1.7784 s/op
+WorkloadWarmup   3: 1 op, 1794615800.00 ns, 1.7946 s/op
+WorkloadWarmup   4: 1 op, 1802619400.00 ns, 1.8026 s/op
+WorkloadWarmup   5: 1 op, 1806920000.00 ns, 1.8069 s/op
+WorkloadWarmup   6: 1 op, 1791854000.00 ns, 1.7919 s/op
+WorkloadWarmup   7: 1 op, 1795088100.00 ns, 1.7951 s/op
+WorkloadWarmup   8: 1 op, 1803723900.00 ns, 1.8037 s/op
+WorkloadWarmup   9: 1 op, 1786282800.00 ns, 1.7863 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 1804401600.00 ns, 1.8044 s/op
+WorkloadActual   2: 1 op, 1805707700.00 ns, 1.8057 s/op
+WorkloadActual   3: 1 op, 1788705800.00 ns, 1.7887 s/op
+WorkloadActual   4: 1 op, 1788792300.00 ns, 1.7888 s/op
+WorkloadActual   5: 1 op, 1777944800.00 ns, 1.7779 s/op
+WorkloadActual   6: 1 op, 1790834700.00 ns, 1.7908 s/op
+WorkloadActual   7: 1 op, 1789813400.00 ns, 1.7898 s/op
+WorkloadActual   8: 1 op, 1798387900.00 ns, 1.7984 s/op
+WorkloadActual   9: 1 op, 1801283900.00 ns, 1.8013 s/op
+WorkloadActual  10: 1 op, 1816230000.00 ns, 1.8162 s/op
+WorkloadActual  11: 1 op, 1821043600.00 ns, 1.8210 s/op
+WorkloadActual  12: 1 op, 1800826800.00 ns, 1.8008 s/op
+WorkloadActual  13: 1 op, 1813745000.00 ns, 1.8137 s/op
+WorkloadActual  14: 1 op, 1819409800.00 ns, 1.8194 s/op
+WorkloadActual  15: 1 op, 1825797700.00 ns, 1.8258 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 1804401600.00 ns, 1.8044 s/op
+WorkloadResult   2: 1 op, 1805707700.00 ns, 1.8057 s/op
+WorkloadResult   3: 1 op, 1788705800.00 ns, 1.7887 s/op
+WorkloadResult   4: 1 op, 1788792300.00 ns, 1.7888 s/op
+WorkloadResult   5: 1 op, 1777944800.00 ns, 1.7779 s/op
+WorkloadResult   6: 1 op, 1790834700.00 ns, 1.7908 s/op
+WorkloadResult   7: 1 op, 1789813400.00 ns, 1.7898 s/op
+WorkloadResult   8: 1 op, 1798387900.00 ns, 1.7984 s/op
+WorkloadResult   9: 1 op, 1801283900.00 ns, 1.8013 s/op
+WorkloadResult  10: 1 op, 1816230000.00 ns, 1.8162 s/op
+WorkloadResult  11: 1 op, 1821043600.00 ns, 1.8210 s/op
+WorkloadResult  12: 1 op, 1800826800.00 ns, 1.8008 s/op
+WorkloadResult  13: 1 op, 1813745000.00 ns, 1.8137 s/op
+WorkloadResult  14: 1 op, 1819409800.00 ns, 1.8194 s/op
+WorkloadResult  15: 1 op, 1825797700.00 ns, 1.8258 s/op
+GC:  0 0 0 6232 1
+Threading:  8 0 1
+
+// AfterAll
+// Benchmark Process 7364 has exited with code 0.
+
+Mean = 1.803 s, StdErr = 0.004 s (0.20%), N = 15, StdDev = 0.014 s
+Min = 1.778 s, Q1 = 1.790 s, Median = 1.801 s, Q3 = 1.815 s, Max = 1.826 s
+IQR = 0.025 s, LowerFence = 1.753 s, UpperFence = 1.852 s
+ConfidenceInterval = [1.788 s; 1.818 s] (CI 99.9%), Margin = 0.015 s (0.84% of Mean)
+Skewness = 0.03, Kurtosis = 1.71, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\TestSortList.ListOfSortingBenchmark-report.csv
+  BenchmarkDotNet.Artifacts\results\TestSortList.ListOfSortingBenchmark-report-github.md
+  BenchmarkDotNet.Artifacts\results\TestSortList.ListOfSortingBenchmark-report.html
+
+// * Detailed results *
+ListOfSortingBenchmark.TestSerialMul: DefaultJob
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 8.963 s, StdErr = 0.026 s (0.29%), N = 14, StdDev = 0.098 s
+Min = 8.837 s, Q1 = 8.905 s, Median = 8.935 s, Q3 = 8.982 s, Max = 9.152 s
+IQR = 0.077 s, LowerFence = 8.789 s, UpperFence = 9.097 s
+ConfidenceInterval = [8.852 s; 9.073 s] (CI 99.9%), Margin = 0.111 s (1.23% of Mean)
+Skewness = 0.82, Kurtosis = 2.2, MValue = 2
+-------------------- Histogram --------------------
+[8.823 s ; 9.205 s) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+ListOfSortingBenchmark.TestParallelMulThread: DefaultJob
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 1.803 s, StdErr = 0.005 s (0.26%), N = 15, StdDev = 0.018 s
+Min = 1.768 s, Q1 = 1.792 s, Median = 1.801 s, Q3 = 1.811 s, Max = 1.839 s
+IQR = 0.019 s, LowerFence = 1.764 s, UpperFence = 1.839 s
+ConfidenceInterval = [1.783 s; 1.822 s] (CI 99.9%), Margin = 0.019 s (1.07% of Mean)
+Skewness = 0.2, Kurtosis = 2.56, MValue = 2
+-------------------- Histogram --------------------
+[1.758 s ; 1.849 s) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+ListOfSortingBenchmark.TestParallelMulTask: DefaultJob
+Runtime = .NET 6.0.1 (6.0.121.56705), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 1.803 s, StdErr = 0.004 s (0.20%), N = 15, StdDev = 0.014 s
+Min = 1.778 s, Q1 = 1.790 s, Median = 1.801 s, Q3 = 1.815 s, Max = 1.826 s
+IQR = 0.025 s, LowerFence = 1.753 s, UpperFence = 1.852 s
+ConfidenceInterval = [1.788 s; 1.818 s] (CI 99.9%), Margin = 0.015 s (0.84% of Mean)
+Skewness = 0.03, Kurtosis = 1.71, MValue = 2
+-------------------- Histogram --------------------
+[1.777 s ; 1.833 s) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19044.1826 (21H2)
+Intel Xeon CPU X3440 2.53GHz, 1 CPU, 8 logical and 4 physical cores
+.NET SDK=6.0.101
+  [Host]     : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET 6.0.1 (6.0.121.56705), X64 RyuJIT
+
+
+|                Method |    Mean |    Error |   StdDev | Rank | Allocated |
+|---------------------- |--------:|---------:|---------:|-----:|----------:|
+|         TestSerialMul | 8.963 s | 0.1106 s | 0.0981 s |    2 |     848 B |
+| TestParallelMulThread | 1.803 s | 0.0192 s | 0.0180 s |    1 |   3,208 B |
+|   TestParallelMulTask | 1.803 s | 0.0151 s | 0.0141 s |    1 |   6,232 B |
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Hints *
+Outliers
+  ListOfSortingBenchmark.TestSerialMul: Default -> 1 outlier  was  removed (9.37 s)
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Rank      : Relative position of current benchmark mean among all benchmarks (Arabic style)
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 s       : 1 Second (1 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:05:09 (309.09 sec), executed benchmarks: 3
+
+Global total time: 00:05:15 (315.59 sec), executed benchmarks: 3
+// * Artifacts cleanup *

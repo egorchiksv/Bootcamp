@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "u9cse7evWgiLHYo/zgoKYRFOYsSj67RMANDynmB1j8uZdlE8KdQWO6DPf1azvzms3c3vnJsPHXTvHA+KVajHMQ==",
+  "success": true,
+  "projectFilePath": "D:\\GeekBrains\\04_Bootcamp\\Lesson10\\Тест умножения матриц\\RaceOfSort\\ListOfSortingAlgorithms\\ListOfSortingAlgorithms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

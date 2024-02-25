@@ -1,0 +1,24 @@
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\bin\Release\net6.0\ListOfSortingAlgorithms.deps.json
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\bin\Release\net6.0\ListOfSortingAlgorithms.dll
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\bin\Release\net6.0\ref\ListOfSortingAlgorithms.dll
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\bin\Release\net6.0\ListOfSortingAlgorithms.pdb
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.AssemblyInfoInputs.cache
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.AssemblyInfo.cs
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.csproj.CoreCompileInputs.cache
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.dll
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ref\ListOfSortingAlgorithms.dll
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.pdb
+D:\GB\bootcamp\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.csproj.AssemblyReference.cache
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\bin\Release\net6.0\ListOfSortingAlgorithms.deps.json
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\bin\Release\net6.0\ListOfSortingAlgorithms.dll
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\bin\Release\net6.0\ListOfSortingAlgorithms.pdb
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.AssemblyInfoInputs.cache
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.AssemblyInfo.cs
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.csproj.CoreCompileInputs.cache
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.sourcelink.json
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.dll
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\refint\ListOfSortingAlgorithms.dll
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ListOfSortingAlgorithms.pdb
+D:\GeekBrains\04_Bootcamp\Lesson10\Тест умножения матриц\RaceOfSort\ListOfSortingAlgorithms\obj\Release\net6.0\ref\ListOfSortingAlgorithms.dll
