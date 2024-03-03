@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tW1KXreGX3WPdRHI43KGK72Q4Rc1bLY6TuJ4K6W7d2wCURMvdIrZ1ueAO0E/W1PR2nmcQiYqzz5XuL/G+1uiNA==",
+  "dgSpecHash": "rBV164ZB0mOL2illr5ONCypLhKreg1XR3D6vtviIsYFGM/uvXgbcgJ+5212D1b5Q2/BeiwmhzNw65GQTlZQc0w==",
   "success": true,
-  "projectFilePath": "D:\\GeekBrains\\04_Bootcamp\\Lesson3_Big o notation\\Lesson2_Big o notation.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\GeekBrains\\04_Bootcamp\\Lesson3_Big_o_notation\\Lesson2_Big o notation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }

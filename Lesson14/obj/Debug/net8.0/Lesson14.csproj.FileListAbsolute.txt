@@ -1,0 +1,15 @@
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\Lesson14.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\Lesson14.AssemblyInfoInputs.cache
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\Lesson14.AssemblyInfo.cs
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\Lesson14.csproj.CoreCompileInputs.cache
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\Lesson14.sourcelink.json
+D:\GeekBrains\04_Bootcamp\Lesson14\bin\Debug\net8.0\Lesson14.exe
+D:\GeekBrains\04_Bootcamp\Lesson14\bin\Debug\net8.0\Lesson14.deps.json
+D:\GeekBrains\04_Bootcamp\Lesson14\bin\Debug\net8.0\Lesson14.runtimeconfig.json
+D:\GeekBrains\04_Bootcamp\Lesson14\bin\Debug\net8.0\Lesson14.dll
+D:\GeekBrains\04_Bootcamp\Lesson14\bin\Debug\net8.0\Lesson14.pdb
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\Lesson14.dll
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\refint\Lesson14.dll
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\Lesson14.pdb
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\Lesson14.genruntimeconfig.cache
+D:\GeekBrains\04_Bootcamp\Lesson14\obj\Debug\net8.0\ref\Lesson14.dll

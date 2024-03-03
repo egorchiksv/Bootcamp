@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "F+Csn4F9i+pjKV274RaPlN0lvOTYCII2vuK/f/tFo+N1puafihp+w9mXIvynUZbVredvt4ytfsmL8Gwd7C8pHA==",
+  "dgSpecHash": "55Uva6THPmfO9Q3HdmT22h7U/5qlMPJL6GrtFCTAqh0DJSz/5osaZTHhJU/1HoqnxvZfrNmQ8QrJXM8/TDGkJQ==",
   "success": true,
   "projectFilePath": "D:\\GeekBrains\\04_Bootcamp\\Lesson4\\Lesson4.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\Администратор\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
