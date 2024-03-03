@@ -1,7 +1,7 @@
 ﻿// Сортировка подсчетом
 const int THREADS_NUMBER = 10; // Число потоков
 const int N = 100000; // Размер массива
-object locker = new object();
+object locker = new object(); // Объект для создания блокировки при синхронизации потоков
 
 //int[] array = {-10, -5, -9, 0, 2, 5, 1, 0, 1};
 //int[] sortedArray = CountingSortExtendet(array);
@@ -63,7 +63,10 @@ void CountingSortParallel(int[] inputArray, int[] counters, int offset, int star
 {
     for(int i = startPos; i < endPos; i++)
     {
-        counters[inputArray[i] + offset]++;
+        lock(locker) // Пока пишет один поток этот поток ставит на locker блокировку, другой записать не может. locker ставит блокировку, только когда заходит в него блокировку. locker ставить блокировку на команду в скобках фигурных. Даннаы метод применяестя для сихронизации вычислений в потоках
+        {
+            counters[inputArray[i] + offset]++;// Сама гонка алгоритмов
+        }
     }
 }
 
