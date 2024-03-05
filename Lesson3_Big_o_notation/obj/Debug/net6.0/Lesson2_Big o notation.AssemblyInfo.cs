@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lesson2_Big o notation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b52a9e5e16074fbb55607de65be509d2a7e2c2bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lesson2_Big o notation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lesson2_Big o notation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,4 @@
-#Очереди задач (Redis)
+#Очереди задач (Redis) сервер
 import redis
 import random
 
